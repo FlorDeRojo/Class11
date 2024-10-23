@@ -1,0 +1,205 @@
+/*This section is for the header. Applies background color*/
+header{
+    background-color: yellow;
+    
+}
+
+/*This section is for the body. Applies background color*/
+body{
+    background-color: rgb(255, 234, 211);
+    margin: 0px;
+}
+
+/*This section is for the formatting of the navigation bar*/
+.navbar ul{
+    list-style-type: none;
+    background-color: #fd6449;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;  
+}
+
+.navbar a{
+   text-decoration: none;
+   color: white;
+   font-size: larger;
+   padding: 10px;
+   display: block;
+   text-indent: 100px;
+   
+}
+
+.navbar a:hover{
+    background-color: #b63c3d;
+    padding: 10px;
+    margin: 0px;
+}
+.navbar li{
+    float:left;
+}
+
+.navbar ul li ul.dropdown li{
+    display: block;
+}
+
+.navbar ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    width: 200px;
+}
+
+.navbar ul li:hover ul.dropdown{
+    display: block;
+}
+
+/*This section is for the formatting of the booking form table*/
+table{
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+table tr{
+    background: #ffb546;
+}
+table tr td{
+    width: 350px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+/*This section is for formatting the Hotel/Stay page*/
+body .HotelOne{
+    margin: auto;
+    margin-top: 75px;
+    margin-right: 125px;
+    padding: 0px;
+    float: right;
+}
+
+body .TitleOne{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 30px; 
+    padding: 0px;
+    float: left;
+}
+
+body .PassageOne{
+    text-align: left; 
+    margin: 0px;
+    padding: 0px;
+    margin-top: 150px; 
+    margin-left: 30px; 
+    margin-right: 600px;
+}
+
+ body .HotelTwo{
+    margin: auto; 
+    margin-top: 175px;
+    margin-right: -400px; 
+    padding: 0px;
+    float: right;
+} 
+
+body .TitleTwo{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 30px; 
+    padding: 0px;
+    float: left;
+}
+
+body .PassageTwo{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 250px;
+    margin-left: 30px; 
+    margin-right: 600px; 
+}
+
+
+body .HotelThree{
+    margin: auto;
+    margin-top: 175px;
+    margin-right: 125px;
+    padding: 0px;
+    float: right;
+}
+
+body .TitleThree{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 30px; 
+    padding: 0px;
+    float: left;
+}
+
+body .PassageThree{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 250px;
+    margin-left: 30px; 
+    margin-right: 600px;
+}
+
+
+ body .HotelFour{
+    margin: auto;
+    margin-top: 200px;
+    margin-right: 125px;
+    padding: 0px;
+    float: right;
+}
+
+body .TitleFour{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 30px; 
+    padding: 0px;
+    float: left;
+}
+
+body .PassageFour{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 250px;
+    margin-left: 30px; 
+    margin-right: 600px;
+}
+
+body .HotelFive{
+    margin: auto;
+    margin-top: 225px;
+    margin-right: 125px;
+    padding: 0px;
+    float: right;
+    margin-bottom: 150px;
+}
+
+body .TitleFive{
+    margin: auto;
+    margin-top: 150px;
+    margin-left: 30px; 
+    padding: 0px;
+    float: left;
+}
+
+body .PassageFive{
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 250px;
+    margin-left: 30px; 
+    margin-right: 600px;
+    margin-bottom: 150px;
+}
+
+/* For the flower picture on the about logo page */
+a.FlowerLogo{
+    margin-left: 12px; 
+}
+
